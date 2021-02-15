@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather app.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Weather App</h1>
+      </header>
+      <label for = "cityInput" id = "inputLabel">Find weather by city:</label><br>
+      <ul id = "searchInput">
+        <li><input type = "text" id = "cityInput" placeholder = "Edmonton"></li>
+        <li><button id = "submit">Search</button></li>
+      </ul>
+     
+      <div id = "weather-grid">
+        <div>
+          <h2>Temperature</h2>
+          <img src = "temperature.png">
+          <p id = "temp-display">25°C</p>
+        </div>
+        <div>
+          <h2>Humidity</h2>
+          <img src = "humidity.png">
+          <p id = "hum-display">50%</p>
+        </div>
+        <div>
+          <h2>Wind</h2>
+          <img src = "wind.png">
+          <p id = "win-display">20 KM/HR</p>
+        </div>
+      </div>
+      <div id = "footer">
+        <h3>&copy;Sadiki Rungo</h3>
+      </div>
+      
+      
+    </main>
+    <script src = "script.js"></script>
+  </body>
+</html>
