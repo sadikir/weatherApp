@@ -80,7 +80,9 @@ header>h1{
 }
 @media only screen and (max-width: 985px){
    main{
-     width:97%;
+     width:100%;
+     overflow:hidden;
+     margin:auto;
    }
    #weather-grid{
      display:flex;
