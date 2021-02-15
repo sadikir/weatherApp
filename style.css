@@ -91,8 +91,12 @@ header>h1{
    #weather-grid>div{
      margin-left:25%;
    }
-   #weather-grid>h2{
+   #weather-grid>div>h2{
      font-size:30px;
+   }
+   #weather-grid>div>p{
+     font-size:40px;
+     font-weight:bold;
    }
    #searchInput{
      display:flex;
@@ -114,4 +118,9 @@ header>h1{
     margin-left:0px;
     margin-top:10px;
    }
+   header>h1{
+    width:100%;
+    font-size:55px;
+   
+  }
 }
