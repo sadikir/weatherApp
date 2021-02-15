@@ -78,3 +78,38 @@ header>h1{
 #footer>h3{
   text-align:center;
 }
+@media only screen and (max-width: 985px){
+   main{
+     width:97%;
+   }
+   #weather-grid{
+     display:flex;
+     flex-direction: column;
+   }
+   #weather-grid>div{
+     margin-left:25%;
+   }
+   #weather-grid>h2{
+     font-size:30px;
+   }
+   #searchInput{
+     display:flex;
+     flex-direction:column;
+   }
+   #searchInput>li:nth-child(1){
+    width:100%;
+   }
+   #searchInput>li:nth-child(2){
+     width:80%;
+    }
+   #cityInput{
+     display:block;
+     width:80%;
+   }
+   #submit{
+     display:block;
+    width:100%;
+    margin-left:0px;
+    margin-top:10px;
+   }
+}
